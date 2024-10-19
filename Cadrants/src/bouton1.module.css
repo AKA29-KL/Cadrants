@@ -1,0 +1,42 @@
+/* bouton1.module.css */
+.bouton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles pour les boutons */
+.bouton1 {
+    background-color: rgb(163, 12, 12);
+}
+
+.bouton1:hover {
+    background-color: rgb(207, 83, 83); 
+}
+
+.bouton2 {
+    background-color: rgb(134, 49, 143);
+}
+
+.bouton2:hover {
+    background-color: rgb(207, 83, 207); 
+}
+
+.bouton3 {
+    background-color: rgb(19, 19, 100);
+}
+
+.bouton3:hover {
+    background-color: rgb(83, 83, 207); 
+}
+
+.bouton4 {
+    background-color: rgb(152, 159, 52);
+}
+
+.bouton4:hover {
+    background-color: rgb(230, 227, 146); 
+}

@@ -1,0 +1,52 @@
+html, body {
+  margin: 0; /* Supprime les marges par défaut */
+  height: 100%; /* Assure que le corps remplit la hauteur */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+  grid-template-rows: repeat(2, 1fr);    /* Deux lignes de hauteur égale */
+  height: 100vh; /* Remplit la hauteur de la fenêtre */
+  width: 100vw;  /* Remplit la largeur de la fenêtre */
+}
+
+.grid-item {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center; 
+}
+
+  /* Style pour les carrés */
+  .grid-item > div {
+    text-align: center; /* Alignement du texte */
+    font-size: 20px; /* Taille du texte */
+    height: 100%; 
+
+    
+  }
+
+  .grid-item > div:hover {
+    background-color: #ddd; 
+    cursor: pointer; 
+  }
+
+  /* Media query pour les écrans de 600px et moins */
+@media (max-width: 600px) {
+  .grid-container {
+      grid-template-columns: 1fr; 
+  }
+
+  .grid-item {
+      font-size: 16px; 
+  }
+}
+
+/* Media query pour les écrans entre 601px et 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  .grid-item {
+      font-size: 18px; 
+  }
+}
+

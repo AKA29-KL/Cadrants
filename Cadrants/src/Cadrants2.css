@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('C:\Users\Admin\Cadrants\src\fonts\Oswald-VariableFont_wght.ttf');
+}
+.Cadrant2 {
+    background-color: #DCC2E0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    width: 100%; 
+    color: white; 
+  }
+  
+  
+  #titre2 {
+    font-size: 24px;
+    color:purple;
+    font-family: 'MyFont';
+    font-size: 30px;
+  }
+  
+  #primary2 {
+    font-size: 18px;
+    color:purple;
+  }
+  
+  .icone2{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
