@@ -94,7 +94,7 @@ Installez les dépendances :
 
 Lancez l'application :
 
-    npm start
+    npm run dev
 
 
 Technologies Utilisées
